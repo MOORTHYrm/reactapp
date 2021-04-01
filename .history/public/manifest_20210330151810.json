@@ -1,6 +1,6 @@
 {
   "short_name": "Portfolio",
-  "name": "moorthys's Portfolio",
+  "name": "Hanzla's Portfolio",
   "description": "A passionate Full Stack Web Developer and Mobile App Developer.",
     "icons": [
       {
@@ -16,6 +16,6 @@
     ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#737366",
+  "theme_color": "#11cdef",
   "background_color": "#11cdef"
 }

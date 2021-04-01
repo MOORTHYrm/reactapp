@@ -1,30 +1,30 @@
 import emoji from 'react-easy-emoji';
 
-import googlelogo from './assets/img/icons/common/google.svg'
-import github from './assets/img/icons/common/github.svg'
-import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import googlelogo from './assets/img/icons/common/logo.jpg'
+import github from './assets/img/icons/common/smartcreations.png'
+import airbnb from './assets/img/icons/common/mantra.jpg'
 
 export const greetings = {
-    "name": "Hanzla Tauqeer",
-    "title": "Hi all, I'm Hanzla",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.hanzla.ga"
+    "name": "Moorthy rm",
+    "title": "Hi all, I'm moorthy",
+    "description": "A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / php / mysql / codeigniter/ wordpress and some other cool libraries and Web Apps.",
+    "resumeLink": "https://drive.google.com/file/d/13FSjnpV_4uJhfPExlxFAkK-u_GjFZ53D/view?usp=sharing"
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
-};
+  githubUserName: 'MOORTHYrm'
+}
 
 export const contact = {
   
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/1hanzla100",
-    "instagram": "https://www.instagram.com/1hanzla100",
-    "twitter": "https://twitter.com/1hanzla100",
-    "github": "https://github.com/1hanzla100",
-    "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
+   
+    "instagram": "https://www.instagram.com/moorthyrm96",
+    "twitter": "https://twitter.com/moorthyrm96",
+    "github": "https://github.com/MOORTHYrm",
+    "linkedin": "https://in.linkedin.com/in/moorthy-rm-b48481b1"
 }
 
 export const skillsSection = {
@@ -32,11 +32,11 @@ export const skillsSection = {
     subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
     skills: [
       emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+        '⚡ Develop highly interactive Front end / Back End User Interfaces for your web applications'
       ),
       emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
       emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+        '⚡ Integration of third party services as a Firebase'
       ),
     ],
     
@@ -50,16 +50,16 @@ export const skillsSection = {
         fontAwesomeClassname: 'vscode-icons:file-type-css',
       },
       {
-        skillName: 'sass',
-        fontAwesomeClassname: 'logos:sass',
+        skillName: 'Wordpress',
+        fontAwesomeClassname: 'logos:wordpress',
       },
       {
         skillName: 'JavaScript',
         fontAwesomeClassname: 'logos:javascript',
       },
       {
-        skillName: 'TypeScript',
-        fontAwesomeClassname: 'logos:typescript-icon',
+        skillName: 'php',
+        fontAwesomeClassname: 'logos:php',
       },
       {
         skillName: 'reactjs',
@@ -70,45 +70,24 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:nodejs-icon',
       },
       {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
+        skillName: 'codeigniter',
+        fontAwesomeClassname: 'logos:codeigniter',
       },
       {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
+        skillName: 'mysql',
+        fontAwesomeClassname: 'logos:mysql',
       },
       {
         skillName: 'npm',
         fontAwesomeClassname: 'vscode-icons:file-type-npm',
       },
-      {
-        skillName: 'sql-database',
-        fontAwesomeClassname: 'vscode-icons:file-type-sql',
-      },
-      {
-        skillName: 'mongoDB',
-        fontAwesomeClassname: 'vscode-icons:file-type-mongo',
-      },
-      {
-        skillName: 'aws',
-        fontAwesomeClassname: 'logos:aws',
-      },
-      {
-        skillName: 'firebase',
-        fontAwesomeClassname: 'logos:firebase',
-      },
-      {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
-      },
+      
+     
       {
         skillName: 'git',
         fontAwesomeClassname: 'logos:git-icon',
       },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
+      
     ],
 }
 
@@ -116,7 +95,7 @@ export const skillsSection = {
 export const SkillBars = [
     {
       Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90', //Insert relative proficiency in percentage
+      progressPercentage: '70', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
@@ -124,87 +103,92 @@ export const SkillBars = [
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60',
+      progressPercentage: '75',
     },
   ]
 
 export const educationInfo = [
     {
-      schoolName: 'Harvard University',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'Bharadhidasan University',
+      subHeader: 'Bachelor of Computer Application',
+      duration: 'July 2014 - April 2017',
+      desc: 'i have developed leaderspassions.wordprss.com for tech blog.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'I have studied basic software engineering subjects like DS, DBMS, OS, php, java.',
+        'Apart from this, I have done course on java certification.',
       ],
     },
-    {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
-    },
+   
 ]
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Google',
+    role: 'Web Developer',
+    company: 'geethamsoft Pvt Ltd',
     companylogo: googlelogo,
-    date: 'June 2018 – Present',
+    date: 'Nov 2017 – Feb 2019',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Software Based company.',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'We have developed login and registration module, file uploading concepts in php framework along with codeigniter',
+      'facebook, whatsapp integration, pageview counter',
+       'Team Size of 7',
+     'php, codeigniter, mysql',
     ],
   },
   {
-    role: 'Front-End Developer',
-    company: 'Github',
+    role: 'Web Developer (parent company)',
+    company: 'smartcreations',
     companylogo: github,
-    date: 'May 2017 – May 2018',
+    date: 'March 2019 – June 2020',
     desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Gold platings, gold coating services',
+    descBullets: [
+      'We have developed login and registration module, static and dynamic pages',
+      'facebook, whatsapp integration, php based blog system',
+       'Team Size of 1',
+     'php, mysql, facebook api, ',
+    ],
   },
   {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
+    role: 'Web Developer (Subsidiary Company)',
+    company: 'mantragoldcoatings',
     companylogo: airbnb,
-    date: 'Jan 2015 – Sep 2015',
+    date: 'March 2019 – June 2020',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Home Decor products',
+      descBullets: [
+      'We have developed woocommerce based ecommerce website. login and registration module, static and dynamic pages' ,
+      'facebook, whatsapp integration, paytm payment gateway',
+       'Team Size of 3',
+     'wordpress, php, mysql,woocommerce, paytm payment gateway ',
+    ],
   },
 ]
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "portfolio",
+    desc: "react based personal website",
     link: {
-      name: "hanzla",
-      url: "kasjfklsdjf"
+      name: "personal portfolio",
+      url: "dreamtecworld.com"
+    }
+  },
+  {
+    name: "covid tracker",
+    desc: "worldwide covid tracker react based",
+    link: {
+      name: "covid tracker",
+      url: "https://moorthycovidtracker.netlify.app/"
+    }
+  },
+  {
+    name: "calculator",
+    desc: "simple react based calculator",
+    link: {
+      name: "calculator",
+      url: "https://moorthycalculator.netlify.app/"
     }
   }
 ]

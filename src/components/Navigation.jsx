@@ -67,18 +67,7 @@ const Navigation = () => {
                   </Row>
                 </div>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href={socialLinks.facebook}
-                      target="_blank"
-                    >
-                      <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
-                      </span>
-                    </NavLink>
-                  </NavItem>
+                 
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
